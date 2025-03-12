@@ -1,0 +1,252 @@
+/*--------------------------------------------------------------
+# Feature One
+--------------------------------------------------------------*/
+.feature-one {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-black);
+}
+
+.feature-one__inner {
+    position: relative;
+    display: block;
+    padding: 65px 0;
+}
+
+.feature-one__inner::before {
+    content: "";
+    position: absolute;
+    left: -1000px;
+    bottom: 0;
+    right: -1000px;
+    height: 1px;
+    background-color: var(--tecture-bdr-color);
+}
+
+
+
+.feature-one__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature-one__list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+}
+
+.feature-one__list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border: 1px dashed var(--tecture-bdr-color);
+    border-radius: 5px;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.feature-one__list li:hover .icon {
+    border: 1px dashed var(--tecture-base);
+}
+
+.feature-one__list li .icon:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    height: 100%;
+    background-color: var(--tecture-base);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    -webkit-transition-property: all;
+    transition-property: all;
+    opacity: 1;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    z-index: -1;
+}
+
+.feature-one__list li:hover .icon:after {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.feature-one__list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    color: var(--tecture-base);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+}
+
+.feature-one__list li:hover .icon span {
+    color: var(--tecture-white);
+    transform: rotateY(180deg);
+}
+
+.feature-one__list li .text {
+    margin-left: 30px;
+}
+
+.feature-one__list li .text p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--tecture-white);
+    font-family: var(--tecture-font-2);
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.feature-one__list li .text p a {
+    color: var(--tecture-white);
+}
+
+.feature-one__list li .text p a:hover {
+    color: var(--tecture-base);
+}
+
+/*--------------------------------------------------------------
+# Feature Two
+--------------------------------------------------------------*/
+.feature-two {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-black);
+    border-top: 0px solid var(--tecture-bdr-color);
+    border-bottom: 1px solid var(--tecture-bdr-color);
+    z-index: 10;
+}
+
+.feature-two .row {
+    --bs-gutter-x: 0px;
+}
+
+.feature-two__single {
+    position: relative;
+    display: block;
+    border-left: 1px solid var(--tecture-bdr-color);
+    text-align: center;
+    padding: 65px 65px 65px;
+}
+
+.feature-two__single.last-child {
+    border-right: 1px solid var(--tecture-bdr-color);
+}
+
+.feature-two__icon {
+    position: relative;
+    display: block;
+}
+
+.feature-two__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 66px;
+    color: var(--tecture-base);
+    -webkit-transition: all 500ms linear;
+    transition: all 500ms linear;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.feature-two__single:hover .feature-two__icon span {
+    transform: scale(.9);
+}
+
+.feature-two__title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.feature-two__title a {
+    color: var(--tecture-white);
+}
+
+.feature-two__title a:hover {
+    color: var(--tecture-base);
+}
+
+.feature-two__text {
+    color: #aeb0b4;
+    ;
+    margin-bottom: 32px;
+}
+
+.feature-two__shape-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.feature-two__shape-1 {
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: var(--tecture-white);
+}
+
+.feature-two__shape-2 {
+    position: relative;
+    display: block;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: var(--tecture-base);
+}
+
+.feature-two__shape-3 {
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: var(--tecture-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

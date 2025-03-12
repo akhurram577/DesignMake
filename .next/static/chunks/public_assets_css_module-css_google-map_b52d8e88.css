@@ -1,0 +1,25 @@
+/* [project]/public/assets/css/module-css/google-map.css [app-client] (css) */
+.google-map-one {
+  position: relative;
+  display: block;
+}
+
+.google-map__one {
+  position: relative;
+  display: block;
+  border: none;
+  height: 775px;
+  width: 100%;
+}
+
+.google-map__one:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #080a0766;
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_google-map_b52d8e88.css.map*/

@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+# Error Page
+--------------------------------------------------------------*/
+.error-page {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.error-page__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.error-page__img {
+    position: relative;
+    display: block;
+    max-width: 696px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.error-page__img img {
+    width: 100%;
+}
+
+.error-page__btn-box {
+    position: relative;
+    display: block;
+    margin-top: 66px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# United Kingdom
+--------------------------------------------------------------*/
+.contact-info-section {
+    position: relative;
+    display: block;
+    padding: 0px 0 120px;
+    z-index: 1;
+}
+
+.single-contact-info-section {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.single-contact-info-section .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: var(--tecture-black);
+    color: var(--tecture-base);
+    font-size: 35px;
+    z-index: 1;
+}
+
+.single-contact-info-section__content {
+    position: relative;
+    display: block;
+    background-color: rgba(var(--tecture-white-rgb), .05);
+    padding: 73px 20px 32px;
+    border-radius: 10px;
+}
+
+.single-contact-info-section__content .text {
+    position: relative;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.single-contact-info-section__content .text h3 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.single-contact-info-section__content .text p {
+    margin: 0;
+}
+
+.single-contact-info-section__content .text p+p {
+    margin-top: 6px;
+}
+
+.single-contact-info-section__content .text p a {
+    color: #aeb0b4;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-contact-info-section__content .text p a:hover {
+    color: var(--tecture-white);
+}
+
+.single-contact-info-section__content .btn-box {
+    position: relative;
+    display: block;
+}
+
+.single-contact-info-section__content .btn-box a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: #aeb0b4;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: var(--tecture-font);
+    text-transform: uppercase;
+    gap: 5px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-contact-info-section__content .btn-box a:hover {
+    color: var(--tecture-base);
+}
+
+.single-contact-info-section__content .btn-box a span {
+    font-size: 23px;
+    position: relative;
+    display: inline-block;
+    top: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

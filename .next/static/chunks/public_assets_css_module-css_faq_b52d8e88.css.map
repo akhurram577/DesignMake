@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/public/assets/css/module-css/faq.css"],"sourcesContent":["/*--------------------------------------------------------------\r\n# Faq Page\r\n--------------------------------------------------------------*/\r\n.faq-page {\r\n    position: relative;\r\n    display: block;\r\n    padding: 120px 0 90px;\r\n    z-index: 1;\r\n}\r\n\r\n.faq-page__left {\r\n    position: relative;\r\n    display: block;\r\n    margin-bottom: 30px;\r\n}\r\n\r\n.faq-page__right {\r\n    position: relative;\r\n    display: block;\r\n    margin-bottom: 30px;\r\n}"],"names":[],"mappings":"AAGA;;;;;;;AAOA;;;;;;AAMA"}}]
+}

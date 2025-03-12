@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/public/assets/css/module-css/error-page.css"],"sourcesContent":["/*--------------------------------------------------------------\r\n# Error Page\r\n--------------------------------------------------------------*/\r\n.error-page {\r\n    position: relative;\r\n    display: block;\r\n    padding: 120px 0 120px;\r\n    z-index: 1;\r\n}\r\n\r\n.error-page__inner {\r\n    position: relative;\r\n    display: block;\r\n    text-align: center;\r\n}\r\n\r\n.error-page__img {\r\n    position: relative;\r\n    display: block;\r\n    max-width: 696px;\r\n    width: 100%;\r\n    margin: 0 auto;\r\n}\r\n\r\n.error-page__img img {\r\n    width: 100%;\r\n}\r\n\r\n.error-page__btn-box {\r\n    position: relative;\r\n    display: block;\r\n    margin-top: 66px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/*--------------------------------------------------------------\r\n# End\r\n--------------------------------------------------------------*/"],"names":[],"mappings":"AAGA;;;;;;;AAOA;;;;;;AAMA;;;;;;;;AAQA;;;;AAIA"}}]
+}

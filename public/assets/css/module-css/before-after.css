@@ -1,0 +1,146 @@
+/*--------------------------------------------------------------
+# Before And After
+--------------------------------------------------------------*/
+.before-and-after {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.before-and-after .section-title {
+    margin-bottom: 18px;
+}
+
+.before-and-after__text {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.before-and-after__img-box {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-base);
+}
+
+.before-and-after__img-box .before-after {
+    position: relative;
+}
+
+.before-and-after__img-box .before-after .twentytwenty-container img {
+    width: 100%;
+}
+
+.before-and-after__img-box .before-after .twentytwenty-horizontal .twentytwenty-before-label:before {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--tecture-base);
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    z-index: 1;
+    transform: rotate(-45deg);
+    text-transform: uppercase;
+    display: none;
+}
+
+.before-and-after__img-box .before-after .twentytwenty-horizontal .twentytwenty-before-label:after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%, 0% 0%);
+}
+
+.before-and-after__img-box .before-after .twentytwenty-horizontal .twentytwenty-after-label:before {
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    line-height: 140px;
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+    font-weight: 700;
+    color: var(--tecture-base);
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    text-transform: uppercase;
+    display: none;
+}
+
+.before-and-after__img-box.before-after .twentytwenty-horizontal .twentytwenty-after-label:after {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.twentytwenty-after-label,
+.twentytwenty-before-label {
+    opacity: 1 !important;
+}
+
+.before-and-after__after {
+    position: absolute;
+    left: 10px;
+    bottom: 10;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.before-and-after__before {
+    position: absolute;
+    right: 10px;
+    bottom: 10;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

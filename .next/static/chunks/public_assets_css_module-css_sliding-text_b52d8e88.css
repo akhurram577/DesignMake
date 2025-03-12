@@ -1,0 +1,172 @@
+/* [project]/public/assets/css/module-css/sliding-text.css [app-client] (css) */
+@keyframes marquee {
+  from {
+    transform: translateX(30%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee_mode li {
+  white-space: nowrap;
+}
+
+.marquee_mode {
+  animation: 55s linear infinite marquee;
+}
+
+.sliding-text-one {
+  position: relative;
+  display: block;
+  background-color: var(--tecture-black);
+  border-top: 1px solid var(--tecture-bdr-color);
+  border-bottom: 1px solid var(--tecture-bdr-color);
+  padding: 85px 0;
+  z-index: 1;
+}
+
+.sliding-text-one__wrap {
+  position: relative;
+  display: block;
+}
+
+.sliding-text__list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  width: fit-content;
+}
+
+.sliding-text__list li {
+  osition: relative;
+  display: block;
+  float: left;
+  margin-right: 35px;
+}
+
+.sliding-text__title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: var(--tecture-white);
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  transition-delay: .1s;
+  font-family: var(--tecture-font-two);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.sliding-text__title img {
+  position: relative;
+  width: auto;
+  animation: 5s linear infinite alternate forwards textRotate;
+}
+
+.sliding-text__title:before {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  color: var(--tecture-base);
+  white-space: nowrap;
+  content: attr(data-hover);
+  transition: all .5s cubic-bezier(.17, .67, .32, .87);
+}
+
+.sliding-text__list li:hover .sliding-text__title:before {
+  width: 100%;
+  color: var(--tecture-base);
+}
+
+@keyframes textRotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sliding-text-two {
+  position: relative;
+  display: block;
+  background-color: var(--tecture-black);
+  border-top: 1px solid var(--tecture-bdr-color);
+  border-bottom: 1px solid var(--tecture-bdr-color);
+  padding: 27px 0;
+  z-index: 10;
+}
+
+.sliding-text-two__wrap {
+  position: relative;
+  display: block;
+}
+
+.sliding-text-two__list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  width: fit-content;
+}
+
+.sliding-text-two__list li {
+  osition: relative;
+  display: block;
+  float: left;
+  margin-right: 35px;
+}
+
+.sliding-text-two__title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: #0000;
+  -webkit-text-stroke: 1px var(--tecture-white);
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  transition: all .2s linear;
+  transition-delay: .1s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.sliding-text-two__title:before {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  color: var(--tecture-base);
+  white-space: nowrap;
+  content: attr(data-hover);
+  transition: all .5s cubic-bezier(.17, .67, .32, .87);
+}
+
+.sliding-text-two__list li:hover .sliding-text-two__title:before {
+  width: 100%;
+  color: var(--tecture-base);
+}
+
+.sliding-text-two__list li:hover .sliding-text-two__title {
+  -webkit-text-stroke: 1px var(--tecture-base);
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_sliding-text_b52d8e88.css.map*/

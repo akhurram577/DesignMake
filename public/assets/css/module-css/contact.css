@@ -1,0 +1,429 @@
+/*--------------------------------------------------------------
+# Contact One
+--------------------------------------------------------------*/
+.contact-one {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.contact-one__shape-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.contact-one__shape-2 img {
+    width: auto;
+}
+
+.contact-one__left {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-black);
+    margin-right: 35px;
+    z-index: 1;
+}
+
+.contact-one__inner {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.contact-one__shape-1 {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    opacity: 0.01;
+    z-index: -1;
+    display: none;
+}
+
+.contact-one__shape-1 img {
+    width: auto;
+}
+
+.contact-one__form {
+    position: relative;
+    display: block;
+    padding: 60px 80px 60px;
+}
+
+.contact-one__input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact-one__input-box input[type="text"],
+.contact-one__input-box input[type="email"] {
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--tecture-bdr-color);
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    font-size: 16px;
+    color: var(--tecture-white);
+    font-style: normal;
+    display: block;
+    font-weight: 500;
+    border-radius: 0px;
+}
+
+.contact-one__input-box textarea {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--tecture-bdr-color);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--tecture-white);
+    display: block;
+    font-weight: 500;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.contact-one__input-box.text-message-box {
+    height: 100px;
+}
+
+.contact-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+.contact-one__btn {
+    border: none;
+}
+
+.contact-one__right {
+    position: relative;
+    display: block;
+    margin-top: 106px;
+}
+
+.contact-one__right-content {
+    position: relative;
+    display: block;
+}
+
+.contact-one__title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.contact-one__contact-info {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-base);
+    max-width: 345px;
+    width: 100%;
+    padding: 50px 40px 50px;
+    margin-top: 78px;
+    margin-left: 165px;
+    z-index: 1;
+}
+
+.contact-one__contact-info:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 1px dashed var(--tecture-white);
+    z-index: -1;
+}
+
+.contact-one__contact-icon {
+    position: relative;
+    display: block;
+}
+
+.contact-one__contact-icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 54px;
+    color: var(--tecture-white);
+}
+
+.contact-one__contact-icon-2 {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.contact-one__contact-icon-2 span {
+    position: relative;
+    display: inline-block;
+    font-size: 95px;
+    color: var(--tecture-white);
+    opacity: .20;
+}
+
+.contact-one__contact-number-box {
+    position: relative;
+    display: block;
+    margin-top: 21px;
+}
+
+.contact-one__contact-number-box p {
+    font-size: 18px;
+    color: var(--tecture-white);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 18px;
+    margin-bottom: 22px;
+}
+
+.contact-one__contact-number-box h5 {
+    font-size: 22px;
+    color: var(--tecture-white);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.contact-one__contact-number-box h5 a {
+    color: var(--tecture-white);
+}
+
+.contact-one__contact-number-box h5 a:hover {
+    color: var(--tecture-black);
+}
+
+/*--------------------------------------------------------------
+# Contact Page
+--------------------------------------------------------------*/
+.contact-page {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.contact-page.pdt0 {
+    padding-top: 0;
+}
+
+.contact-page.pdtop {
+    background-color: var(--tecture-black);
+}
+
+.contact-page__inner {
+    position: relative;
+    display: block;
+    background-color: #0e110d;
+    padding: 107px 0 75px;
+    border-radius: 10px;
+}
+
+.contact-page__left {
+    position: relative;
+    display: block;
+    margin-left: 39px;
+    margin-right: 12px;
+}
+
+.contact-page__information {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-black);
+    padding: 58px 40px 70px;
+    border-radius: 10px;
+}
+
+.contact-page__information-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(var(--tecture-white-rgb), .10);
+    margin-bottom: 40px;
+    padding-bottom: 18px;
+}
+
+.contact-page__information-list {
+    position: relative;
+    display: block;
+}
+
+.contact-page__information-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #0e110d;
+    padding: 21px 0 20px 20px;
+}
+
+.contact-page__information-list li+li {
+    margin-top: 25px;
+}
+
+.contact-page__information-list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 55px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--tecture-base);
+}
+
+.contact-page__information-list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 26px;
+    color: var(--tecture-black);
+}
+
+.contact-page__information-list li .content {
+    position: relative;
+    display: block;
+}
+
+.contact-page__information-list li .content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.contact-page__information-list li .content p {
+    font-size: 15px;
+    color: var(--tecture-white);
+}
+
+.contact-page__information-list li .content p a {
+    color: var(--tecture-white);
+}
+
+.contact-page__information-list li .content p a:hover {
+    color: var(--tecture-base);
+}
+
+
+
+.contact-page__right {
+    margin-left: 20px;
+    margin-right: 35px;
+    margin-top: -14px;
+}
+
+.contact-page__contact-title {
+    position: relative;
+    display: inline-block;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 71px;
+}
+
+.contact-page__contact-title::before {
+    content: "";
+    position: absolute;
+    bottom: -21px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: var(--tecture-white);
+    opacity: 0.10;
+}
+
+.contact-page__form {
+    position: relative;
+    display: block;
+}
+
+.contact-page__input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contact-page__input-box input[type="text"],
+.contact-page__input-box input[type="email"],
+.contact-page__input-box input[type="number"] {
+    height: 58px;
+    width: 100%;
+    background-color: #080a07;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: none;
+    font-size: 16px;
+    color: rgba(var(--tecture-white-rgb), .30);
+    display: block;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.contact-page__input-box textarea {
+    position: relative;
+    height: 185px;
+    width: 100%;
+    background-color: #080a07;
+    border: none;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: none;
+    font-size: 16px;
+    color: rgba(var(--tecture-white-rgb), .30);
+    display: block;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.contact-page__input-box.text-message-box {
+    height: 185px;
+    margin-bottom: 50px;
+}
+
+.contact-page__btn-box {
+    position: relative;
+    display: block;
+}
+
+.contact-page__btn {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

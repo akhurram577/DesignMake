@@ -1,0 +1,199 @@
+/* [project]/public/assets/css/flaticon.css [app-client] (css) */
+@font-face {
+  font-family: icomoon;
+  src: url("../media/icomoon.323c6f27.eot");
+  src: url("../media/icomoon.323c6f27.eot") format("embedded-opentype"), url("../media/icomoon.7c15c1dd.ttf") format("truetype"), url("../media/icomoon.8ad91ddd.woff") format("woff"), url("../media/icomoon.7429cc57.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: icomoon !important;
+}
+
+.icon-plus:before {
+  content: "";
+}
+
+.icon-minus:before {
+  content: "";
+}
+
+.icon-down-arrow:before {
+  content: "";
+}
+
+.icon-search-interface-symbol:before {
+  content: "";
+}
+
+.icon-phone-conversation:before {
+  content: "";
+}
+
+.icon-social-media-marketing:before {
+  content: "";
+}
+
+.icon-email-marketing:before {
+  content: "";
+}
+
+.icon-campaign:before {
+  content: "";
+}
+
+.icon-left-arrow:before {
+  content: "";
+}
+
+.icon-right-arrow:before {
+  content: "";
+}
+
+.icon-up-right-arrow:before {
+  content: "";
+}
+
+.icon-engineer:before {
+  content: "";
+}
+
+.icon-workstations:before {
+  content: "";
+}
+
+.icon-cyber-security:before {
+  content: "";
+}
+
+.icon-next:before {
+  content: "";
+}
+
+.icon-up-right-arrow-1:before {
+  content: "";
+}
+
+.icon-pointed-star:before {
+  content: "";
+}
+
+.icon-paper-plane:before {
+  content: "";
+}
+
+.icon-globe:before {
+  content: "";
+}
+
+.icon-text:before {
+  content: "";
+}
+
+.icon-staircase:before {
+  content: "";
+}
+
+.icon-plant:before {
+  content: "";
+}
+
+.icon-vacuum-cleaner:before {
+  content: "";
+}
+
+.icon-quotes:before {
+  content: "";
+}
+
+.icon-user:before {
+  content: "";
+}
+
+.icon-envelope:before {
+  content: "";
+}
+
+.icon-edit:before {
+  content: "";
+}
+
+.icon-info:before {
+  content: "";
+}
+
+.icon-customer-service:before {
+  content: "";
+}
+
+.icon-passport:before {
+  content: "";
+}
+
+.icon-right:before {
+  content: "";
+}
+
+.icon-telephone:before {
+  content: "";
+}
+
+.icon-download:before {
+  content: "";
+}
+
+.icon-down-arrow-1:before {
+  content: "";
+}
+
+.icon-conversation:before {
+  content: "";
+}
+
+.icon-share:before {
+  content: "";
+}
+
+.icon-left:before {
+  content: "";
+}
+
+.icon-calendar:before {
+  content: "";
+}
+
+.icon-pin:before {
+  content: "";
+}
+
+.icon-trading:before {
+  content: "";
+}
+
+.icon-envelope-1:before {
+  content: "";
+}
+
+.icon-location:before {
+  content: "";
+}
+
+.icon-mobile-phone:before {
+  content: "";
+}
+
+.icon-envelope-2:before {
+  content: "";
+}
+
+/*# sourceMappingURL=public_assets_css_flaticon_b52d8e88.css.map*/

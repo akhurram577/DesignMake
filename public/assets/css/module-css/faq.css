@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Faq Page
+--------------------------------------------------------------*/
+.faq-page {
+    position: relative;
+    display: block;
+    padding: 120px 0 90px;
+    z-index: 1;
+}
+
+.faq-page__left {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.faq-page__right {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}

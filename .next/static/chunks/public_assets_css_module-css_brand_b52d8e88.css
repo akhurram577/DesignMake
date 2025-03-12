@@ -1,0 +1,56 @@
+/* [project]/public/assets/css/module-css/brand.css [app-client] (css) */
+.brand-one {
+  position: relative;
+  display: block;
+  background-color: var(--tecture-black);
+  border-top: 1px solid var(--tecture-bdr-color);
+  border-bottom: 1px solid var(--tecture-bdr-color);
+  padding: 0;
+  z-index: 1;
+}
+
+.brand-one .container {
+  max-width: 100%;
+}
+
+.brand-one__carousel {
+  position: relative;
+  display: block;
+}
+
+.brand-one__carousel:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: var(--tecture-black);
+  z-index: 10;
+}
+
+.brand-one__img {
+  position: relative;
+  display: block;
+}
+
+.brand-one__img a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--tecture-bdr-color);
+  padding: 39px 0;
+}
+
+.brand-one__img a img {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  width: auto !important;
+}
+
+.brand-one__img a:hover img {
+  opacity: .5;
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_brand_b52d8e88.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/USER/Downloads/pot/tecture/components/elements/Preloader.js"],"sourcesContent":["export default function Preloader() {\n    return (\n        <>\n            <div className=\"loader-wrap\">\n                <div className=\"layer layer-one\"><span className=\"overlay\" /></div>\n                <div className=\"layer layer-two\"><span className=\"overlay\" /></div>\n                <div className=\"layer layer-three\"><span className=\"overlay\" /></div>\n            </div>\n\n\n        </>\n    )\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACpB,qBACI;kBACI,cAAA,8OAAC;YAAI,WAAU;;8BACX,8OAAC;oBAAI,WAAU;8BAAkB,cAAA,8OAAC;wBAAK,WAAU;;;;;;;;;;;8BACjD,8OAAC;oBAAI,WAAU;8BAAkB,cAAA,8OAAC;wBAAK,WAAU;;;;;;;;;;;8BACjD,8OAAC;oBAAI,WAAU;8BAAoB,cAAA,8OAAC;wBAAK,WAAU;;;;;;;;;;;;;;;;;;AAMnE","debugId":null}},
+    {"offset": {"line": 73, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/USER/Downloads/pot/tecture/app/loading.js"],"sourcesContent":["import Preloader from '@/components/elements/Preloader'\r\n\r\nexport default function loading() {\r\n    return (\r\n        <>\r\n            <Preloader />\r\n        </>\r\n    )\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACpB,qBACI;kBACI,cAAA,8OAAC,mIAAA,CAAA,UAAS;;;;;;AAGtB","debugId":null}}]
+}

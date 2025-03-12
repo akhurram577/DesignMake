@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+# Google Map One
+--------------------------------------------------------------*/
+.google-map-one {
+    position: relative;
+    display: block;
+}
+
+.google-map__one {
+    position: relative;
+    display: block;
+    border: none;
+    height: 775px;
+    width: 100%;
+}
+
+.google-map__one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(8, 10, 7, .40);
+}
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

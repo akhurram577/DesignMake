@@ -1,0 +1,136 @@
+/*--------------------------------------------------------------
+# Page Header
+--------------------------------------------------------------*/
+.page-header {
+    position: relative;
+    display: block;
+    background-color: var(--tecture-black);
+    z-index: 1;
+}
+
+.page-header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .60;
+    z-index: -1;
+}
+
+.page-header__bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.23853291316526615) 70%, rgba(0, 0, 0, 1) 100%);
+}
+
+.page-header__bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5998774509803921) 20%, rgba(9, 0, 0, 0.19371498599439774) 100%);
+}
+
+
+.page-header__bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .55);
+    z-index: -1;
+}
+
+.page-header__inner {
+    position: relative;
+    display: block;
+    padding: 181px 0 188px;
+}
+
+.page-header__title-box {
+    position: relative;
+    display: block;
+}
+
+.page-header__title-box h3 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.thm-breadcrumb__box {
+    position: absolute;
+    right: 0px;
+    bottom: 33px;
+}
+
+.thm-breadcrumb {
+    position: relative;
+    display: inline-block;
+}
+
+.thm-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--tecture-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li+li {
+    margin-left: 2px;
+}
+
+.thm-breadcrumb li a {
+    position: relative;
+    display: inline-block;
+    color: var(--tecture-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li:hover a {
+    color: var(--tecture-base);
+}
+
+.thm-breadcrumb li.active {
+    color: var(--tecture-base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

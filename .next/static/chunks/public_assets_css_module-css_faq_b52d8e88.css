@@ -1,0 +1,21 @@
+/* [project]/public/assets/css/module-css/faq.css [app-client] (css) */
+.faq-page {
+  position: relative;
+  display: block;
+  padding: 120px 0 90px;
+  z-index: 1;
+}
+
+.faq-page__left {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.faq-page__right {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_faq_b52d8e88.css.map*/

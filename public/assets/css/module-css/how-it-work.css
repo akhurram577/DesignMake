@@ -1,0 +1,226 @@
+/*--------------------------------------------------------------
+# How It Work
+--------------------------------------------------------------*/
+.how-it-work {
+    position: relative;
+    display: block;
+    counter-reset: count;
+    padding: 120px 0 57px;
+    background-color: var(--tecture-black);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.how-it-work .section-title {
+    margin-bottom: 108px;
+}
+
+.how-it-work__single {
+    position: relative;
+    display: block;
+    margin-bottom: 70px;
+}
+
+.how-it-work__single-2 {
+    padding-left: 120px;
+}
+
+.how-it-work__count {
+    position: relative;
+    display: block;
+}
+
+.how-it-work__count:before {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: var(--tecture-base);
+    counter-increment: count;
+    content: "0"counter(count);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.how-it-work__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 2px;
+    margin-bottom: 11px;
+}
+
+.how-it-work__icon {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: var(--tecture-base);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.how-it-work__single-2 .how-it-work__icon {
+    left: -50px;
+    right: inherit;
+}
+
+.how-it-work__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    color: #000000;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.how-it-work__single:hover .how-it-work__icon span {
+    transform: scale(0.9);
+}
+
+.how-it-work__img-box {
+    position: relative;
+    display: block;
+}
+
+.how-it-work__img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: -50px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.how-it-work__img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.50;
+}
+
+.how-it-work__img img {
+    width: 100%;
+}
+
+.how-it-work__icon-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: var(--tecture-base);
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.how-it-work__icon-2 span {
+    position: relative;
+    display: inline-block;
+    font-size: 64px;
+    color: var(--tecture-black);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.how-it-work__icon-2:hover span {
+    transform: scale(0.9);
+}
+
+@-webkit-keyframes border-transform {
+
+    0%,
+    to {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+@keyframes border-transform {
+
+    0%,
+    to {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/
